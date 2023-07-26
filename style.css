@@ -1,0 +1,40 @@
+  @keyframes xd {
+    0% {background-color:red; left: 300px; top: 10px;}
+    10% {background-color:brown; left:300px; top:10px;}
+    20% {background-color:chocolate; left:600px; top:0px;}
+    30% {background-color:yellow; left:600px; top:300px;}
+    40% {background-color:yellowgreen; left:600px; top:600px;}
+    50% {background-color:rgb(173, 231, 86); left:300px; top:600px;}
+    60% {background-color:rgb(197, 255, 122); left:0px; top:600px;}
+    70% {background-color:chartreuse; left:0px; top:300px;}
+    80% {background-color:aqua; left:0px; top:0px;}
+    90% {background-color:chartreuse; left: 300px; top: 200px;}
+    91% {background-color:red; left: 300px; top: 185px;}
+    91.5% {background-color:red; left: 300px; top: 170px;}
+    92% {background-color:red; left: 300px; top: 155px;}
+    92.5% {background-color:red; left: 300px; top: 140px;}
+    93% {background-color:red; left: 300px; top: 125px;}
+    93.5% {background-color:red; left: 300px; top: 110px;}
+    94% {background-color:red; left: 300px; top: 95px;}
+    94.5% {background-color:red; left: 300px; top: 80px;}
+    95.5% {background-color:red; left: 300px; top: 40px;}
+    96% {background-color:red; left: 300px; top: 25px;}
+    96.5% {background-color:red; left: 300px; top: 10px;}
+    97% {background-color:red; left: 300px; top: 8px;}
+    97.5% {background-color:red; left: 300px; top: 6px;}
+    98% {background-color:red; left: 300px; top: 4px;}
+    98.5% {background-color:red; left: 300px; top: 2.5px;}
+    99% {background-color:red; left: 300px; top: 2px;}
+    99.5% {background-color:red; left: 300px; top: 1px;}
+    100% {background-color:red; left: 300px; top: 10px;}
+  }
+
+html{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: red;
+    animation-name: xd;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
